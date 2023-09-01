@@ -1,0 +1,125 @@
+REVISÃO aula 4
+
+-  Dependente - entidade fraca 
+entidade forte - tem dependencia p funcionar
+1 p 1
+
+atributos especiais: atributos chaves
+
+atributos derivados: não fazem parte diretamente
+
+Modelo logico racional entidade racional - relacional
+
+1-Regras de conversão entidade de relacionamento para modelo lógico e racional:
+-1 entidade forte vira uma tabela 
+*atributos chaves são a chave primaria
+*atributos compostos  usa componentes simples
+ex: Tabela funcionario: 
+PK  |CPF|
+     P Nome		
+     M Inicial
+    
+
+ex: Tabela DEPARTAMENTO 
+PK  |ID DEPARTAMENTO |
+     Nome	
+
+ex: Tabela projeto
+PK  |ID PROJETO|
+     Nome
+     Localização
+
+
+2- Entidade fraca
+*pk identidade indepentende
+*parte da entidade mais fraca 
+
+ex: Tabela DEPENDENTE (esta ligada a tabela funcionario)
+
+PK  |Nome_dependente|
+PKFK|CPF_Funcionario|
+     Parentesco
+     Sexo
+
+3 rever terceiro passo
+
+participação total: todo departamento tem gerente
+participação parcial: nem todo funcionario é gerente
+
+4- passo
+ para cada 1:10
+
+DEPARTAMENTO FUNCIONARIO - É A CHAVES PRIMARIAS:
+MENOR CARDIONALIDADE 1:1
+MAIOR CARDIONALIDADE
+
+1 RELACIONAMENTO P MESMA FUNCIONALIDADE:
+menor p maior cardionalidade
+
+
+5-
+relacionamento de N:N
+cria nova tabela
+ex:
+Projetos
+PK,FK  |CPF_Funcionario|
+PK,FK  |Id_Projeto     |
+        Horas
+
+6-
+para cada atributo multivalorado, nova tabela
+
+ex:
+Localizações
+PK,FK  |Id_departamneto|
+PK     |Localização    |
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
