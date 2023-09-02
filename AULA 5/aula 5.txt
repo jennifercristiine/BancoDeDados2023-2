@@ -1,0 +1,61 @@
+AULA 5- MODELO FÍSICO
+
+- memoria primaria: ra do pc
+- memoria secundaria: disco
+- Modelo físico, limitações
+
+Tipos de dados
+-Numeros, caracteres, etc.
+
+FLOAT - 
+numeros com float utiliza muitas casas decimais
+CHAR - especificando tamanho ele te força a informar o numero de digitos - ele ordena  x numeros delimitados
+ex 7 numero - vc é obrigado a preencher os numeros 
+
+VARCHAR - aceita até x numeros delimitados 
+
+TEXT- tamanho pq,med e grande
+
+arquivos BINARY - não se preocupa com a extensão, qualquer tipo de dados
+
+ENUM - é opções por ex tres cores - 1 opção 
+SET - escolhe varias opções - escolhe um grupo
+
+DIAGRAMA UML - descreve o que é a tabela 
+
+SQL DDL - Criar tabelas, define chaves, tipos e etc via linguagem de banco de dados
+
+
+
+O que estudar :
+O que são entidades
+Entidade forte x fraca
+Entidades no DER
+Entidades fortes e fracas no DER
+Tipos de relacionamento
+Relacionamentos
+Tipos de cardinalidade
+Representando os relacionamentos no DER
+Entidades Associativas
+O que são atributos?
+Tipos de atributo
+Atributos no modelo
+Representando os atributos no DER
+
+REVER CONTEÚDOS NO BLACKBOARD
+
+
+
+ATIVIDADE 2
+MODELAGEM
+t = total
+p = qualquer um das entidades : parcial
+
+	cliente
+´ 		`
+brasileiro 	estrangeiro
+
+
+
+reserva é entidade
+
